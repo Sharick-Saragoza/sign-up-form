@@ -42,3 +42,19 @@ table {
 	border-spacing: 0;
 }
 
+.container {
+    display: flex;
+    background-color:chocolate;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-container {
+    width: 50%;
+    /* background-color: red; */
+}
+
+.form-container {
+    width: 50%;
+    /* background-color: green; */
+}
