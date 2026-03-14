@@ -1,3 +1,13 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* CSS RESET */
 html,
 body,
@@ -130,6 +140,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	font-family: "Comfortaa", sans-serif;
+}
+
 .container {
 	display: flex;
 	width: 100vw;
@@ -178,3 +192,4 @@ input#password,
 input#confirm-password {
 	margin-bottom: 0;
 }
+
