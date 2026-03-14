@@ -220,6 +220,7 @@ button {
 	border: none;
 	border-radius: 5px;
 	color: white;
+	font-weight: bold;
 	padding: 0.8em 1em;
 	max-width: 10vw;
 }
