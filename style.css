@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 .comfortaa {
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Comfortaa", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /* CSS RESET */
@@ -154,7 +154,7 @@ html {
 	height: 100vh;
 }
 
-.image-container {
+.left-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -163,22 +163,28 @@ html {
 	background-color: var(--primary);
 }
 
-.image-container > p {
+.left-container>p {
 	opacity: 0.8;
 	color: white;
 }
 
-.form-container {
+.right-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	width: 50%;
 	padding: 0 5vw;
-	gap:2em;
+	gap: 2em;
 }
 
 form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+}
+
+.form-container {
 	display: flex;
 	gap: 1.5em;
 }
@@ -204,7 +210,7 @@ input#confirm-password {
 	margin-bottom: 0;
 }
 
-.form-container > h1 {
+.right-container>h1 {
 	font-size: 1.5em;
 	font-weight: 600;
 }
@@ -215,6 +221,7 @@ button {
 	border-radius: 5px;
 	color: white;
 	padding: 0.8em 1em;
+	max-width: 10vw;
 }
 
 button:hover {
