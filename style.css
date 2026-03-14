@@ -1,3 +1,7 @@
+:root {
+	--primary: chocolate;
+}
+
 /* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
@@ -156,7 +160,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	width: 50%;
-	background-color: chocolate;
+	background-color: var(--primary);
 }
 
 .image-container > p {
@@ -176,7 +180,7 @@ html {
 
 form {
 	display: flex;
-	gap: 1em;
+	gap: 1.5em;
 }
 
 .left-side-form {
@@ -190,7 +194,9 @@ form {
 }
 
 input {
-	margin-bottom: 1em;
+	height: 2em;
+	width: 12vw;
+	margin-bottom: 1.5em;
 }
 
 input#password,
@@ -198,3 +204,34 @@ input#confirm-password {
 	margin-bottom: 0;
 }
 
+.form-container > h1 {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+button {
+	background-color: var(--primary);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 0.8em 1em;
+}
+
+button:hover {
+	background-color: rgb(230, 129, 58);
+	cursor: pointer;
+}
+
+a {
+	color: var(--primary);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+label {
+	display: block;
+}
+
+span {
+	color: red;
+}
