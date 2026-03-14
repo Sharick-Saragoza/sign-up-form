@@ -156,6 +156,12 @@ html {
 	justify-content: center;
 	align-items: center;
 	width: 50%;
+	background-color: chocolate;
+}
+
+.image-container > p {
+	opacity: 0.8;
+	color: white;
 }
 
 .form-container {
@@ -166,7 +172,6 @@ html {
 	width: 50%;
 	padding: 0 5vw;
 	gap:2em;
-	background-color: green;
 }
 
 form {
